@@ -1,0 +1,24 @@
+when(...).thenReturn(...)
+ovvero quando chiama il tale metodo allora restituisci il valore specificato.
+Si possono fare più thenReturn()
+
+
+Scenario init: definisco una classe per testare dotata di DatabaseProvider da mockare
+- la classe da mockare a video la scritta "Hello mockito"
+Esercizio:
+- Aggiungo la classe di test
+@RunWith(MockitoJUnitRunner.class) dice a mockito che ci saranno delle istanza mocked
+class SayHelloTest {
+
+imposto l'istanza da mockare
+    @Mock
+    private DatabaseProvider databaseProvider;
+
+
+
+    @Test
+    void save() {
+    }
+}
+
+Il metodo DatabaseProvider.save() non viene chiamato

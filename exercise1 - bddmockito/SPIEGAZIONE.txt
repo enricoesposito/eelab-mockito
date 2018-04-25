@@ -1,0 +1,6 @@
+Testo con BDDMockito
+
+-Scenario: La classe da testare
+
+- Creo la classe di test
+Noto che per i metodi void è possibile eseguire veramente le chiamate

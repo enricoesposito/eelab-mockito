@@ -1,0 +1,5 @@
+Scenario init: per prima cosa definisco una classe che poi andr� a testare
+- la classe stampa a video la scritta "Hello mockito"
+Esercizio:
+- installo la dipendenza di mockito su maven
+- installo la dipendenza di junit su maven
